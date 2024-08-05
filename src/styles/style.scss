@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply px-4 py-2 rounded;
+}
+
+.btn-primary {
+  @apply bg-black text-white ;
+}
+
+.btn-secondary {
+  @apply bg-black text-white ;
+}
+
+.card {
+  @apply border p-4 rounded shadow;
+}
+
+.input {
+  @apply p-2 border rounded w-full;
+}
+
+.textarea {
+  @apply p-2 border rounded w-full;
+}
+
+nav a.active {
+  @apply bg-gray-100;
+}
